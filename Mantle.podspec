@@ -2,16 +2,13 @@ Pod::Spec.new do |s|
 
   s.name         = "Mantle"
   s.version      = "1.0.0"
-  s.summary      = ""
-
-  s.description  = <<-DESC
-                   DESC
+  s.summary      = "model 序列化"
 
   s.homepage     = "https://github.com/developerTang/Mantle"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author             = { "唐桂富" => "1311494379@qq.com" }
+  s.author       = { "唐桂富" => "1311494379@qq.com" }
   
   s.platform     = "ios"
 
