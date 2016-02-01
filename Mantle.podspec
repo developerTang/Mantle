@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/developerTang/Mantle.git", :tag => "1.0.0" }
 
+  s.source_files = 'Mantle/MantleFrameWork.framework/Versions/A/Headers/*.h'
+  s.library = 'MantleFrameWork'
   s.framework  = "MantleFrameWork"
 
 end
